@@ -665,6 +665,6 @@ body {
     transform: rotate(-45deg);
 }
 .btn-projets:hover::after {
-    transition: transform 0.3s 0.1s linear;
+    transition: transform 0.4s 0.1s linear;
     transform: translateX(400px);
 }
