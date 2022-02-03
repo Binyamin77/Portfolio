@@ -71,7 +71,7 @@ body {
     border-radius: 50%;
     position: relative;
     box-shadow: 26px 26px 53px #292929,
-    -26px -26px 53px #3d3d3d;
+                -26px -26px 53px #3d3d3d;
 }
 .cercle-portrait img {
     width: 100px;
@@ -110,7 +110,7 @@ body {
         align-items: center;
         flex-direction: column;
 
-    }
+    } 
     .menu-visible {
         left: 0px!important;
     }
@@ -152,7 +152,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-
+    
     }
 
     .ligne-unique::before {
@@ -178,7 +178,7 @@ body {
         top: 0;
         transform: rotate(45deg);
         transition: top 300ms ease, transform 300ms 300ms ease;
-    }
+    } 
     .cont-ligne.active .ligne-unique {
         background: transparent;
     }
@@ -186,7 +186,7 @@ body {
         bottom: 0;
         transform: rotate(-45deg);
         transition: bottom 300ms ease, transform 300ms 300ms ease;
-    }
+    } 
 }
 
 /* ------------------ Accueil ---------------- */
@@ -275,7 +275,7 @@ h1 {
 @keyframes pulse {
     to {
         box-shadow: 0 0 0 8px rgba(255,255,255,0.01);
-    }
+    }   
 }
 .logo-btn-rond-acc {
     width: 35px;
@@ -940,9 +940,9 @@ h1 {
 
 @media screen and (max-width: 380px) {
 
-    .txt-section {
-        font-size: 15px;
-    }
+        .txt-section {
+            font-size: 15px;
+        }
 
 }
 
@@ -950,7 +950,7 @@ h1 {
 .section-parallax {
     width: 100%;
     height: 250px;
-    background: url(ressources/code.jpg) no-repeat right / cover fixed;
+    background: url(ressources/accueil.jpg) no-repeat right / cover fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -974,14 +974,14 @@ h1 {
     .txt-par:nth-child(1) {
         padding-left: 0px;
     }
-
+    
 }
 @media screen and (max-width: 700px) {
 
-    .txt-par {
-        font-size: 22px;
-        margin: 0 25px;
-    }
+.txt-par {
+    font-size: 22px;
+    margin: 0 25px;
+}
 }
 @media screen and (max-width: 550px) {
 
@@ -998,7 +998,7 @@ h1 {
 /* Section Contact */
 
 .section-contact {
-    width: 100%;
+    width: 100%; 
     height: auto;
 }
 .section-contact h2 {
