@@ -193,7 +193,7 @@ body {
 
 .accueil {
     background-size: cover;
-    background: url(ressources/img_code.jpg) fixed;
+    background: url(ressources/imgPres.jpg) fixed;
     height: 100vh;
     min-height: 900px;
     width: calc(100% - 300px);
@@ -206,13 +206,13 @@ h1 {
     font-family: 'Abril Fatface', sans-serif;
     margin: 0 60px;
     padding-top: 210px;
-    color: #ffffff;
+    color: #000000;
 
 }
 .txt-animation {
     font-size: 30px;
     margin: 10px 0 10px 60px;
-    color: #ffffff;
+    color: #000000;
 
 }
 .btn-acc {
@@ -426,7 +426,7 @@ h1 {
     width: 100%;
     position: relative;
     overflow: hidden;
-    color: #e7e7e7;
+    color: #ffffff;
 }
 .fond-forme {
     background: #485563;
@@ -443,6 +443,22 @@ h1 {
     text-align: center;
     margin: 50px 0 70px 0;
     padding-left: 300px;
+}
+
+.btn-cv {
+    display: inline-flex;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid black;
+
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin: 10px 0 0 0;
+    border-radius: 2px;
+    font-size: 18px;
 }
 
 .container-presentation {
@@ -865,7 +881,7 @@ h1 {
 .flex-cont-bloc-exp {
     width: 800px;
     flex-shrink: 1;
-    height: 1000px;
+    height: 500px;
     position: relative;
 }
 .bloc {
@@ -1129,4 +1145,47 @@ footer {
     footer {
         padding-left: 0px;
     }
+}
+
+/*--- index2
+
+
+.slideshow {
+
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    border: 3px solid #F2F2F2;
+    margin-left: 250%;
+    margin-bottom: auto;
+}
+
+.slideshow ul {
+
+    /* 4 images donc 4 x 100% */
+
+   /* width: 300%;
+
+    height: 300px;
+
+    padding:0; margin:0;
+
+    list-style: none;
+
+}
+
+.slideshow li {
+
+    float: left;
+
+} */
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-top: 0px;
+    position: absolute;
+    left: 100%;
+    alignment: center;
+    margin-right: 140px;
+
 }
