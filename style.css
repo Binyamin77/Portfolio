@@ -97,7 +97,7 @@ body {
     transform: translate(-50%,-50%);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
 
     .nav-gauche {
         left: -300px!important;
