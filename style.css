@@ -1191,14 +1191,63 @@ IMG.displayed {
 
 .inforiel{
 
-    width: calc(100% - 310px);
+    width: calc(100% - 340px);
     margin-left: auto;
     position: relative;
+    height: auto;
 }
 .h1 {
     font-size: 90px;
     font-family: 'Abril Fatface', sans-serif;
     margin: 0 120px;
-    padding-top: 2px;
+    padding-top: 0px;
     color: #000000;
+    position: center;
+}
+
+
+
+.breadcrumbs {
+    padding: 20px 0;
+    background: #f9f9f9;
+    width: calc(100% - 300px);
+    margin-left: auto;
+    position: relative;
+}
+
+.breadcrumbs h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #0e2442;
+    content: "/";
+}
+
+@media (max-width: 768px) {
+    .breadcrumbs .d-flex {
+        display: block !important;
+    }
+    .breadcrumbs ol {
+        display: block;
+    }
+    .breadcrumbs ol li {
+        display: inline-block;
+    }
 }
