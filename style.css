@@ -207,7 +207,6 @@ h1 {
     margin: 0 60px;
     padding-top: 210px;
     color: #000000;
-
 }
 .txt-animation {
     font-size: 30px;
@@ -1188,4 +1187,18 @@ IMG.displayed {
     alignment: center;
     margin-right: 140px;
 
+}
+
+.inforiel{
+
+    width: calc(100% - 310px);
+    margin-left: auto;
+    position: relative;
+}
+.h1 {
+    font-size: 90px;
+    font-family: 'Abril Fatface', sans-serif;
+    margin: 0 120px;
+    padding-top: 2px;
+    color: #000000;
 }
