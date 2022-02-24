@@ -818,7 +818,8 @@ h1 {
     }
     .titre-exp {
         font-size: 30px;
-        margin: 50px 0 60px 0;
+       margin: 50px 0 60px 0;
+
     }
     .label-skill {
         font-size: 20px;
@@ -828,9 +829,10 @@ h1 {
         grid-gap: 40px;
     }
     .barre-grises {
-        width: 300px;
+        width: 200px;
     }
 }
+
 
 /*------------ Section experience travail --------- */
 
@@ -1187,6 +1189,11 @@ IMG.displayed {
     alignment: center;
     margin-right: 140px;
 
+}
+
+.carousel{
+    align-items: center;
+    max-width: 25% ;
 }
 
 .inforiel{
