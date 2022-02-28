@@ -21,7 +21,7 @@ body {
     position: fixed;
     top: 0;
     left: -300px;
-    border-right: 1px dashed #f1f1f1;
+    /** border-right: 1px dashed #f1f1f1; **/
     z-index: 5;
     transition: all 0.2s ease-in-out;
 }
@@ -747,6 +747,7 @@ h1 {
     height: 15px;
     background: rgb(216,216,216);
     border-radius: 5px;
+
 }
 .b1 {
     width: 90%;
@@ -1210,6 +1211,7 @@ IMG.displayed {
     padding-top: 0px;
     color: #000000;
     position: center;
+    margin-right: fill;
 }
 
 
