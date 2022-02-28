@@ -1212,6 +1212,7 @@ IMG.displayed {
     color: #000000;
     position: center;
     margin-right: fill;
+    text-align: center;
 }
 
 
